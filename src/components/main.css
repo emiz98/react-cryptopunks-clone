@@ -1,0 +1,46 @@
+.punkList {
+  cursor: pointer;
+  display: flex;
+  overflow: scroll;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+.punkList::-webkit-scrollbar {
+  display: none;
+}
+
+.main {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+}
+
+.punkHighlight > img {
+  border-radius: 20px;
+}
+.punkDetails {
+  color: white;
+  font-size: 2rem;
+  padding-left: 50px;
+}
+.punkDetails > h1 > span {
+  padding-left: 10px;
+  color: rgb(180, 180, 180);
+}
+
+@media screen and (max-width: 900px) {
+  .punkDetails {
+    font-size: 15px;
+    padding-left: 15px;
+  }
+  .punkHighlight > img {
+    margin: auto;
+    width: 10rem;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+}
