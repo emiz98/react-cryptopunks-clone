@@ -1,5 +1,5 @@
 # Cryptopunk Clone
-![Readme Image](https://github.com/emiz98/react-cryptopunks/blob/master/readme.jpeg?raw=true)
+![Readme Image](https://github.com/emiz98/react-cryptopunks-clone/blob/master/readme.jpeg?raw=true)
 <br/>
 
 ## About Cryptopunk
